@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+@using LoginForm.Models;
+
+
+<h2 style="background-color:burlywood ; text-align:center" >Login</h2>
+<body style="background-color:antiquewhite ; text-align:center">
+    <div>
+    <form action="~/Login/verify" method="post">
+     <input type="text" placeholder="Username" id="us" required="required" name="us"  /><br />
+    <input type="password" placeholder="password" name="pass" id="pass" " /> <br />
+    <div id="result"></div>
+     <input type="submit" value="Login"   /> <br />
+
+          </form>
+   
+</div>
+</body>
+
+
+
+

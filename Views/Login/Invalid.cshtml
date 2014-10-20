@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Invalid";
+}
+
+<h2 style="text-align:center ; background-color:red">ERROR : Invalid UserName or Password</h2>
+
+<body style="background-color:antiquewhite ; text-align:center">
+    <form action="~/Login/verify" method="post">
+        <input type="text" placeholder="Username" required="required" name="us"  /><br />
+        <input type="password" placeholder="Password" required="required" name="pass" /><br />
+        <input type="submit" value="Login"  />
+    </form>
+
+</body>
